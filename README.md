@@ -4,7 +4,7 @@
 #### What it is:
 Casl is a simple programming language just made for fun. Has all the usal stuff... lexer, parser, evaluator.
 #### Minimum Requirements:
-As of the current version, alpha-1.0, minimum:
+As of the current version, alpha-2.0, minimum:
 Python 3.0
 Any functioning machine
 #### File structure explained:
