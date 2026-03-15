@@ -1,14 +1,25 @@
-# Version: alpha-1.0
+# Version: alpha-2.0 (Misty Mountains)
 
 ### Features:
-Basic evaluating functionality.
-One function exists, currently, and it is the `print` function
+Created basic parsing capabilities.
 
 ### Changes:
-None.
-
+Slightly changed the ast structure to include the datatype of arguments.
+Changed the standard library configuration so that it only holds the required datatype of arguments, excluding the name.
+**Changes to the print function**
+Slighly adjusted the code to accomodate the changed ast structure
+Slightly adjusted the code to accomodate the changed standard library configuration
+Adjusted the code in a way so it only accepts a single argument
 ### Bug fixes:
 None.
+### Known issues:
+The parser's argument output is unclean, leaving whitespaces and quotes
+The parser does not include datatype as its input into the ast, leaving `None` as a placeholder
+The interpreter either crashes or ignores within disovering an error, due to the lack of error handling.
+### Dev note:
+this project is half-fun half-pissing me off (even more so when i do error handling)
+im not fixing the known issues in this release theyll be fixed in alpha-2.5, the error handling update
+the final part of this update worked first try im scared
 
 #### Version numbering explained:
 Starts with alpha:
